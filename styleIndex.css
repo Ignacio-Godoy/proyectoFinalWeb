@@ -1,0 +1,56 @@
+body{
+    background-image: url("templates/arcoIris.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#barraNav{
+    display: flex;
+    top: 0;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+}
+#vinculos a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-line: none;
+    padding: 5px;
+    margin: 10px;
+    border: 2px;
+    border-style: inset;
+    border-color:white;
+    border-radius: 10px;
+}
+.pie{
+    display:flex;
+    background-color: pink;
+    justify-content: center;
+    align-items: flex-start;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    overflow: visible;
+    padding-bottom: 15px;
+}
+#vinculosFooter a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-line: none;
+    padding: 5px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    border: 2px;
+    border-style: inset;
+    border-color:white;
+    border-radius: 10px;
+}
+#vinculosFooter p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+iframe{
+    height: 250px;
+    width: 250px;
+}
