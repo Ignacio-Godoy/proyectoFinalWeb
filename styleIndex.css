@@ -5,6 +5,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #barraNav{
     display: flex;
@@ -17,7 +18,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration-line: none;
     padding: 5px;
-    margin: 10px;
+    margin-right: 20px;
     border: 2px;
     border-style: inset;
     border-color:white;
@@ -52,5 +53,26 @@ body{
 }
 iframe{
     height: 250px;
-    width: 250px;
+    width: 750px;
+    margin-bottom: 15px;
+    overflow: visible;
+}
+#vinculos:hover{
+    transform:scale(1.1);
+}
+.izquieda{
+    display: flex;
+    flex-direction: column;
+    color:blueviolet;
+}
+.izquierda > div{
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+}
+.derecha{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
